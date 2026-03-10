@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Methods</title>
+    <style>
+        .box{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+        }
+
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" v-cloak>
+        {{ greeting }}
+        <br>
+        <input type="text" v-model="greeting" @keyup.enter="greet">
+        <hr>
+        <div class="box" v-if="isVisible"></div>
+        <br>
+        <!-- <button v-on:click="toggleBox">Toggle</button> -->
+        <button @click="toggleBox">Toggle</button>
+    </div>
+    
+    
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        let app = Vue.createApp({
+            data: function() {
+                return{
+                    greeting: 'Hello',
+                    isVisible: true,
+                }
+            }, 
+            methods: {
+                toggleBox(){
+                    this.isVisible = !this.isVisible
+                },
+                greet(){
+                    console.log(this.greeting)
+                }
+            }
+
+        })
+        app.mount('#app')
+    </script>
+
+</body>
+</html>
