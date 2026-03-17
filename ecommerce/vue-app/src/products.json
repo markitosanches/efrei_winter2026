@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Sport Sneakers",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+        "price": 599.00,
+        "description": "High-performance sport sneakers designed for optimal comfort and style.",
+        "type": "Footwear"
+    },
+    {
+        "id": 2,
+        "name": "Gift Bag",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
+        "price": 99.00,
+        "description": "Elegant gift bag suitable for various occasions with a unique and stylish design.",
+        "type": "Accessories"
+    },
+    {
+        "id": 3,
+        "name": "Smart Watch",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
+        "price": 249.97,
+        "description": "Advanced smartwatch with fitness tracking, heart rate monitoring, and smart notifications.",
+        "type": "Electronics"
+    },
+    {
+        "id": 4,
+        "name": "Plant Shelves",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
+        "price": 249.97,
+        "description": "Stylish and functional plant shelves for displaying your favorite plants at home.",
+        "type": "Home Decor"
+    },
+    {
+        "id": 5,
+        "name": "Running Shoes",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
+        "price": 199.49,
+        "description": "Lightweight and durable running shoes engineered for maximum performance.",
+        "type": "Footwear"
+    },
+    {
+        "id": 6,
+        "name": "Sun Block",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg",
+        "price": 17.19,
+        "description": "Effective sunblock with SPF 50 for protecting your skin from harmful UV rays.",
+        "type": "Beauty"
+    },
+    {
+        "id": 7,
+        "name": "Light Spot",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg",
+        "price": 149.49,
+        "description": "Contemporary light spot designed to illuminate and enhance your living space.",
+        "type": "Home Decor"
+    },
+    {
+        "id": 8,
+        "name": "Travel Bag",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg",
+        "price": 5.00,
+        "description": "Compact and lightweight travel bag for convenient and organized travel.",
+        "type": "Travel Accessories"
+    },
+    {
+        "id": 9,
+        "name": "X-Box Controller",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg",
+        "price": 99.49,
+        "description": "Gaming controller compatible with X-Box for an immersive gaming experience.",
+        "type": "Electronics"
+    },
+    {
+        "id": 10,
+        "name": "Leather Backpack",
+        "photo": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg",
+        "price": 399.49,
+        "description": "Premium leather backpack with multiple compartments for modern and stylish travel.",
+        "type": "Fashion"
+    }
+]
