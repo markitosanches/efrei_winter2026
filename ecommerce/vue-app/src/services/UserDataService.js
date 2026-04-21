@@ -8,5 +8,9 @@ class UserDataService{
         return http.post('/user/login', data)
     }
 
+    getLogout () {
+        return http.get('/user/logout')
+    }
+
 }
 export default new UserDataService()

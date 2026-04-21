@@ -50,5 +50,27 @@ exports.findOne = async (req, res) => {
     })
   }
 
-  res.end();
+  const token = jwt.sign({id: user.id}, 'secret')
+
+  res.cookie('jwt', token,{
+    httpOnly: true,
+    maxAge:24 * 60 * 60 * 1000
+  })
+
+  user.update({
+    token: token
+  })
+
+  const {password, ...data} = await user.toJSON()
+  res.send({
+    user: data
+  })
+}
+
+exports.logout = async (req, res) => {
+    res.cookie('jwt', '', {maxAge: 0})
+
+    res.send({
+        message: 'success'
+    })
 }
